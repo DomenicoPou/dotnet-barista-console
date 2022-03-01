@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-barista-console", "dotnet-barista-console\dotnet-barista-console.csproj", "{1C64B49F-7200-40C4-A634-D8711D58051C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C64B49F-7200-40C4-A634-D8711D58051C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C64B49F-7200-40C4-A634-D8711D58051C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C64B49F-7200-40C4-A634-D8711D58051C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C64B49F-7200-40C4-A634-D8711D58051C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3354F29F-BDAA-43EF-A584-E6D92A028113}
+	EndGlobalSection
+EndGlobal
