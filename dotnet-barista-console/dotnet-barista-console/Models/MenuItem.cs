@@ -9,6 +9,6 @@ namespace dotnet_barista_console.Models
     public class MenuItem
     {
         public string drink_name { get; set; }
-        public Prices prices { get; set; }
+        public Dictionary<string, float> prices { get; set; }
     }
 }

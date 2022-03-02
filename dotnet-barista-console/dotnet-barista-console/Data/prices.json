@@ -23,10 +23,10 @@
    },
    {
       "drink_name":"long black",
-    "prices": {
-      "small": 3.25,
-      "medium": 3.5
-    }
+      "prices": {
+        "small": 3.25,
+        "medium": 3.5
+      }
    },
    {
       "drink_name":"mocha",
