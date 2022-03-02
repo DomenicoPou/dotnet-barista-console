@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace dotnet_barista_console.Models
 {
+    /// <summary>
+    /// Payments from users
+    /// </summary>
     public class Payment
     {
         public string user { get; set; }

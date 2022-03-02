@@ -14,12 +14,14 @@ namespace dotnet_barista_console.Handlers
         // T will be the main configuartion class
         private static string dataFolderName = "Data";
 
+
         /// <summary>data
         /// Initial constructure  
         /// </summary>
         static DataHandler()
         {
         }
+
 
         /// <summary>
         /// Gets the data file full path depending on the configures type
@@ -41,6 +43,7 @@ namespace dotnet_barista_console.Handlers
             return filePath;
         }
 
+
         /// <summary>
         /// Read the created data file.
         /// </summary>
@@ -56,25 +59,6 @@ namespace dotnet_barista_console.Handlers
             {
                 string content = textReader.ReadToEnd();
                 return JsonConvert.DeserializeObject<T>(content);
-            }
-        }
-
-        /// <summary>
-        /// Write to the data fil.
-        /// </summary>
-        /// <param name="dataObject">The data object</param>
-        public static void WriteConfig<T>(string _fileName, T _dataObject)
-        {
-            // Grab the data file
-            string configFile = GetConfigFile(_fileName);
-
-            // Serialize the object to JSON indented
-            string fileContent = JsonConvert.SerializeObject(_dataObject, Formatting.Indented);
-
-            // Write the string into the config file
-            using (StreamWriter writer = new StreamWriter(configFile, false, Encoding.Unicode))
-            {
-                writer.Write(fileContent);
             }
         }
     }
